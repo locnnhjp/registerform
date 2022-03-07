@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Register Form</title>
+</head>
+<body>
+    <style>
+        form {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+        }
+
+        p {
+            margin-bottom: 0;
+            font-weight: bold;
+        }
+    </style>
+    <form action="register" method="post">
+        <p>Ho va ten:</p>
+        <input type="text" name="name">
+        <p>Email:</p>
+        <input type="text" name="email">
+        <p>So dien thoai:</p>
+        <input type="text" name="phone">
+        <p>Gioi tinh:</p>
+        <input type="radio" name="gender" value="male" checked>Nam
+        <input type="radio" name="gender" value="female">Nu
+        <p><input type="submit" name="btnsubmit" value="Dang ky"></p>
+    </form>
+</body>
+</html>
